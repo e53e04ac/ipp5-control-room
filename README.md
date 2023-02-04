@@ -44,7 +44,7 @@
 
 ~~~~~ sh
 $ git clone https://github.com/e53e04ac/ipp5-control-room.git
-$ cd ipp5
+$ cd ipp5-control-room
 
 $ npm install
 
