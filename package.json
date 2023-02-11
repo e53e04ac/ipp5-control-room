@@ -22,15 +22,11 @@
   "engines": {
     "node": ">=18"
   },
-  "devDependencies": {
-    "@types/node": "^18.11.19"
-  },
   "dependencies": {
     "argv": "github:e53e04ac/argv",
     "base": "github:e53e04ac/base",
     "date-time": "github:e53e04ac/date-time",
     "event-emitter": "github:e53e04ac/event-emitter",
-    "file-entry": "github:e53e04ac/file-entry",
     "file-entry-native": "github:e53e04ac/file-entry-native",
     "hold": "github:e53e04ac/hold",
     "ipp5-backend-api-builder": "github:e53e04ac/ipp5-backend-api-builder",
@@ -46,5 +42,9 @@
     "ipp5-frontend-launcher": "github:e53e04ac/ipp5-frontend-launcher",
     "ipp5-static-builder": "github:e53e04ac/ipp5-static-builder",
     "ipp5-terraformer": "github:e53e04ac/ipp5-terraformer"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "file-entry": "github:e53e04ac/file-entry"
   }
 }
