@@ -4,9 +4,6 @@
 npm install e53e04ac/ipp5-control-room
 ~~~~~
 
-~~~~~ mjs
-~~~~~
-
 ~~~~~ mermaid
 graph RL;
   A(["package.json"]);
@@ -60,29 +57,27 @@ graph RL;
   click B_1 "https://github.com/e53e04ac/base/tree/ec922e97d594333727b64f0f4754321480a59c3c";
   click B_2 "https://github.com/e53e04ac/date-time/tree/987e618996664d02775daafe3a6940a3bd1a61c8";
   click B_3 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
-  click B_4 "https://github.com/e53e04ac/file-entry-native/tree/0e0f87721b3753446d291c2ed8bd1755a851d321";
+  click B_4 "https://github.com/e53e04ac/file-entry-native/tree/8d4c8db60b7d7a4d70ba04bb54e91e790e7a364c";
   click B_5 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
-  click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/644c1a08034840ea8f63052042e44dbe35b8cfa7";
-  click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/aa9fa153dc0cd207a84f2f871f4a167910c0d170";
-  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/e96855201c6625547f87bb4cad05b80c92230038";
-  click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/935097b8ae8156b3a79924f954059a4033970a44";
-  click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/c44ab4898ba04342c0bd0cb7939a244a8e09c738";
-  click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/273f566405436b98e7f47c20fd06d263414fac7d";
-  click B_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/02a16e6f2a34a61c39ff71fff41f5e0575921e8f";
-  click B_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/c001e508ce4a8ada8faddaf127b5f858d99ad3af";
-  click B_14 "https://github.com/e53e04ac/ipp5-configuration/tree/76ea94f4248eb721a26aec0643053d40cd0ee65e";
-  click B_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/c402eb141dd97d0903ba4cc8f74c3bf054ac87c0";
-  click B_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/2c90322ce5e60d54cc974b1d7a9d45bd27f0a97c";
-  click B_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/babf1c0b2f54cee61454e6fc844318b48d6f6b17";
-  click B_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/b7e093db4d2962b5a230ad48141cdbe7503fe8c6";
+  click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/fbcbbaa7fc5e8ba982e4b13bfb4bc5c430fae67f";
+  click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/5f1e49010ac58dc8e72e85f1f8142da9df0a0f7a";
+  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/3dcecec39d3476919b9345bb1359671964ba892a";
+  click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/28d4b31b52459b243ffb1954cc94f9d7cee412d8";
+  click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/1c015c8814a541c1b947216c79a249391c1981b6";
+  click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/ee3d6c7fda882714fea8ebac7425daee067d0521";
+  click B_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/528e66f224a7bb0bd0db052a1763455577b6a2ef";
+  click B_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/7f4abc369257ca99a71a6212f96d1b4d78737fb3";
+  click B_14 "https://github.com/e53e04ac/ipp5-configuration/tree/43516bb0e99c4723bcace2212913dacaafd664e3";
+  click B_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/43b80b86424e913ccd8466b78529cdb9b7b925b8";
+  click B_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/712e12c6087ea8ecede35927a18e7f9baf1d9f1a";
+  click B_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/dc26a0e0b3fed312cb3dc1b85114f19e3183e1c9";
+  click B_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/56d4f974e7f0cbf6e7afc2d00ee3f2004ab3a218";
   click B_19 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_20 "https://github.com/e53e04ac/file-entry/tree/77cbd9d0db1e4a74fd5af363999096d9172bd83d";
+  click B_20 "https://github.com/e53e04ac/file-entry/tree/1e3035ecbfc2497f07f1c6d1664936e5b532465e";
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["build-static.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -116,8 +111,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["generate-keys.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -145,15 +138,11 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["index.mjs"])
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["launch-backend-api.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -191,8 +180,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["launch-backend-batch.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -230,8 +217,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["launch-backend-idp.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -269,8 +254,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["launch-backend-static.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -308,8 +291,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["launch-frontend.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
@@ -347,8 +328,6 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  subgraph "e53e04ac/ipp5-control-room";
-  end;
   M(["terraform.mjs"])
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
