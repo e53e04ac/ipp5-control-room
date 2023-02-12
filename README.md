@@ -5,14 +5,6 @@ npm install e53e04ac/ipp5-control-room
 ~~~~~
 
 ~~~~~ mjs
-import { BuildStaticApplication } from 'e53e04ac/ipp5-control-room';
-import { GenerateKeysApplication } from 'e53e04ac/ipp5-control-room';
-import { LaunchBackendApiApplication } from 'e53e04ac/ipp5-control-room';
-import { LaunchBackendBatchApplication } from 'e53e04ac/ipp5-control-room';
-import { LaunchBackendIdpApplication } from 'e53e04ac/ipp5-control-room';
-import { LaunchBackendStaticApplication } from 'e53e04ac/ipp5-control-room';
-import { LaunchFrontendApplication } from 'e53e04ac/ipp5-control-room';
-import { TerraformApplication } from 'e53e04ac/ipp5-control-room';
 ~~~~~
 
 ~~~~~ mermaid
@@ -64,27 +56,27 @@ graph RL;
   A ----> B_18;
   A ----> B_19;
   A ----> B_20;
-  click B_0 "https://github.com/e53e04ac/argv/tree/46aa9fa4806eb7e98693ee354d53898b8e0afa47";
-  click B_1 "https://github.com/e53e04ac/base/tree/679c11d468754731443595177472a78be2bb8fad";
-  click B_2 "https://github.com/e53e04ac/date-time/tree/ea9a187542fb601ce93efe1fe419d561530a7fc2";
-  click B_3 "https://github.com/e53e04ac/event-emitter/tree/684f3b21090807e48917ae6591611f4eb2b1e661";
-  click B_4 "https://github.com/e53e04ac/file-entry-native/tree/d18fec26c8d54d028c89fe513c9e51f713867e44";
-  click B_5 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
-  click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/38abda210d6df5e36c1bde1227037c2b5b085e1c";
-  click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/664b2751648083bfdcf693442010806080c2f4f8";
-  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/821a15303357c5c5847e3f63c3f9cd39b89b4d37";
-  click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/ab1a9e088c38405dae18c8434da395d96bbb976a";
-  click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/e278f752e47f2c4663947445387009a6cef8b745";
-  click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/b5227a41b5c6e237d7a777530ad39282b01c3d50";
-  click B_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/6db13416f5cd6367259a671e174c9f54fed837d6";
-  click B_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/7b7c46b3dd1cee65d819f616474af50f3af0f73d";
-  click B_14 "https://github.com/e53e04ac/ipp5-configuration/tree/79a88f266b2b29a6189ca1b0814ca9f84d5cde7f";
-  click B_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/ae1df40dfccd4849a0e472107757db84d68a887b";
-  click B_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/254cff416724814dc9d00ac60563a9228e0dbf9c";
-  click B_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/8d00a0c65c5ed6a23c52972c4e9d5299da786f78";
-  click B_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/0ac87488002d87464a075c6ee9499fabfe78436e";
+  click B_0 "https://github.com/e53e04ac/argv/tree/1a06235bae45f469a215847a519c005a51e36bf2";
+  click B_1 "https://github.com/e53e04ac/base/tree/ec922e97d594333727b64f0f4754321480a59c3c";
+  click B_2 "https://github.com/e53e04ac/date-time/tree/987e618996664d02775daafe3a6940a3bd1a61c8";
+  click B_3 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
+  click B_4 "https://github.com/e53e04ac/file-entry-native/tree/0e0f87721b3753446d291c2ed8bd1755a851d321";
+  click B_5 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
+  click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/644c1a08034840ea8f63052042e44dbe35b8cfa7";
+  click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/aa9fa153dc0cd207a84f2f871f4a167910c0d170";
+  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/e96855201c6625547f87bb4cad05b80c92230038";
+  click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/935097b8ae8156b3a79924f954059a4033970a44";
+  click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/c44ab4898ba04342c0bd0cb7939a244a8e09c738";
+  click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/273f566405436b98e7f47c20fd06d263414fac7d";
+  click B_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/02a16e6f2a34a61c39ff71fff41f5e0575921e8f";
+  click B_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/c001e508ce4a8ada8faddaf127b5f858d99ad3af";
+  click B_14 "https://github.com/e53e04ac/ipp5-configuration/tree/76ea94f4248eb721a26aec0643053d40cd0ee65e";
+  click B_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/c402eb141dd97d0903ba4cc8f74c3bf054ac87c0";
+  click B_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/2c90322ce5e60d54cc974b1d7a9d45bd27f0a97c";
+  click B_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/babf1c0b2f54cee61454e6fc844318b48d6f6b17";
+  click B_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/b7e093db4d2962b5a230ad48141cdbe7503fe8c6";
   click B_19 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_20 "https://github.com/e53e04ac/file-entry/tree/eb9b340b50a6a171cda08fa63be4e647bd77caba";
+  click B_20 "https://github.com/e53e04ac/file-entry/tree/77cbd9d0db1e4a74fd5af363999096d9172bd83d";
 ~~~~~
 
 ~~~~~ mermaid
@@ -391,14 +383,14 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-control-room";
-    E_0(["BuildStaticApplication"]);
-    E_1(["GenerateKeysApplication"]);
-    E_2(["LaunchBackendApiApplication"]);
-    E_3(["LaunchBackendBatchApplication"]);
-    E_4(["LaunchBackendIdpApplication"]);
-    E_5(["LaunchBackendStaticApplication"]);
-    E_6(["LaunchFrontendApplication"]);
-    E_7(["TerraformApplication"]);
+    E_0(["type BuildStaticApplication"]);
+    E_1(["type GenerateKeysApplication"]);
+    E_2(["type LaunchBackendApiApplication"]);
+    E_3(["type LaunchBackendBatchApplication"]);
+    E_4(["type LaunchBackendIdpApplication"]);
+    E_5(["type LaunchBackendStaticApplication"]);
+    E_6(["type LaunchFrontendApplication"]);
+    E_7(["type TerraformApplication"]);
   end;
   M(["index.d.ts"])
   subgraph "argv";
