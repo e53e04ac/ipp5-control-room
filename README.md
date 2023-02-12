@@ -61,7 +61,7 @@ graph RL;
   click B_5 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
   click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/4f77de877c70163b2948d97e9ec25f40ad56acfd";
   click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/ac2481ea4bb625988975770dd3496d6693add11a";
-  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/5bf85e61b349951fc2cd0d2e07602f930342edad";
+  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/a45697025e7cf87c49e67a37d87297c58c9a8c1b";
   click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/94c3557699d25f414151feb0f37b31d1945fb66a";
   click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/3c692c39bd9c5f0ee7ba1f7da59412ab15bf0831";
   click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/3c2356ee0018f4812764a4567a8919da82d672e1";
