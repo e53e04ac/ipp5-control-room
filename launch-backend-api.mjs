@@ -17,7 +17,7 @@ import { Ipp5Configuration } from 'ipp5-configuration';
 /** @type {import('.').LaunchBackendApiApplication} */
 const app = ({
     scriptFile: hold(() => {
-        return FileEntry(new URL(import.meta.url).pathname);
+        return FileEntry.fromFileUrl(import.meta.url);
     }),
     scriptDirectory: hold(() => {
         return app.scriptFile().parent();

@@ -17,7 +17,7 @@ import { Ipp5FrontendLauncher } from 'ipp5-frontend-launcher';
 /** @type {import('.').LaunchFrontendApplication} */
 const app = ({
     scriptFile: hold(() => {
-        return FileEntry(new URL(import.meta.url).pathname);
+        return FileEntry.fromFileUrl(import.meta.url);
     }),
     scriptDirectory: hold(() => {
         return app.scriptFile().parent();

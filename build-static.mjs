@@ -16,7 +16,7 @@ import { Ipp5StaticBuilder } from 'ipp5-static-builder';
 /** @type {import('.').BuildStaticApplication} */
 const app = ({
     scriptFile: hold(() => {
-        return FileEntry(new URL(import.meta.url).pathname);
+        return FileEntry.fromFileUrl(import.meta.url);
     }),
     scriptDirectory: hold(() => {
         return app.scriptFile().parent();

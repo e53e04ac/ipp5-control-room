@@ -16,7 +16,7 @@ import { Ipp5Terraformer } from 'ipp5-terraformer';
 /** @type {import('.').TerraformApplication} */
 const app = ({
     scriptFile: hold(() => {
-        return FileEntry(new URL(import.meta.url).pathname);
+        return FileEntry.fromFileUrl(import.meta.url);
     }),
     scriptDirectory: hold(() => {
         return app.scriptFile().parent();
