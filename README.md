@@ -6,31 +6,56 @@ npm install e53e04ac/ipp5-control-room
 
 ~~~~~ mermaid
 graph RL;
-  A(["package.json"]);
+  A["package.json\npackage-lock.json"];
   subgraph "dependencies";
-    B_0(["e53e04ac/argv"]);
-    B_1(["e53e04ac/base"]);
-    B_2(["e53e04ac/date-time"]);
-    B_3(["e53e04ac/event-emitter"]);
-    B_4(["e53e04ac/file-entry-native"]);
-    B_5(["e53e04ac/hold"]);
-    B_6(["e53e04ac/ipp5-backend-api-builder"]);
-    B_7(["e53e04ac/ipp5-backend-api-launcher"]);
-    B_8(["e53e04ac/ipp5-backend-batch-builder"]);
-    B_9(["e53e04ac/ipp5-backend-batch-launcher"]);
-    B_10(["e53e04ac/ipp5-backend-idp-builder"]);
-    B_11(["e53e04ac/ipp5-backend-idp-launcher"]);
-    B_12(["e53e04ac/ipp5-backend-static-builder"]);
-    B_13(["e53e04ac/ipp5-backend-static-launcher"]);
-    B_14(["e53e04ac/ipp5-configuration"]);
-    B_15(["e53e04ac/ipp5-frontend-builder"]);
-    B_16(["e53e04ac/ipp5-frontend-launcher"]);
-    B_17(["e53e04ac/ipp5-static-builder"]);
-    B_18(["e53e04ac/ipp5-terraformer"]);
+    B_0(["argv"]);
+    B_1(["base"]);
+    B_2(["date-time"]);
+    B_3(["event-emitter"]);
+    B_4(["file-entry-native"]);
+    B_5(["hold"]);
+    B_6(["ipp5-backend-api-builder"]);
+    B_7(["ipp5-backend-api-launcher"]);
+    B_8(["ipp5-backend-batch-builder"]);
+    B_9(["ipp5-backend-batch-launcher"]);
+    B_10(["ipp5-backend-idp-builder"]);
+    B_11(["ipp5-backend-idp-launcher"]);
+    B_12(["ipp5-backend-static-builder"]);
+    B_13(["ipp5-backend-static-launcher"]);
+    B_14(["ipp5-configuration"]);
+    B_15(["ipp5-frontend-builder"]);
+    B_16(["ipp5-frontend-launcher"]);
+    B_17(["ipp5-static-builder"]);
+    B_18(["ipp5-terraformer"]);
   end;
   subgraph "devDependencies";
     B_19(["@types/node"]);
-    B_20(["e53e04ac/file-entry"]);
+    B_20(["file-entry"]);
+  end;
+  subgraph "github";
+    C_0(["e53e04ac/argv\na9d1a4cf03fe693513341746c39b354b3dc37f92"]);
+    C_1(["e53e04ac/base\n5f8ab34b8cf48f6fea778a530617ccc8aefa1970"]);
+    C_2(["e53e04ac/date-time\n744d828e44efdfe5d9dad5a0ea89a931db91053a"]);
+    C_3(["e53e04ac/event-emitter\n98fd492f5a6e31cd646d4b79e70035061165871f"]);
+    C_4(["e53e04ac/file-entry-native\n9e1eedb68cfb029588967f11818997ded7756655"]);
+    C_5(["e53e04ac/hold\n6845a848f97733b8cd8a34bfc03c3bf040818aa8"]);
+    C_6(["e53e04ac/ipp5-backend-api-builder\n8f48157732765c3aae37149f59514f53dd0ba248"]);
+    C_7(["e53e04ac/ipp5-backend-api-launcher\n5bcf6ceb66023e9fbd93abe5029a2d763e5eb679"]);
+    C_8(["e53e04ac/ipp5-backend-batch-builder\n456619783977fb5fa6a62041486aa64678f57fcb"]);
+    C_9(["e53e04ac/ipp5-backend-batch-launcher\nd40cf1429ef1fb589a8ea98b4894d441033c309b"]);
+    C_10(["e53e04ac/ipp5-backend-idp-builder\n13a2fd8a156e6d1a9fc4834c1d9b2b1e95d9917d"]);
+    C_11(["e53e04ac/ipp5-backend-idp-launcher\n79a09c12140e8e6351f130307486639cd0021432"]);
+    C_12(["e53e04ac/ipp5-backend-static-builder\n5aa47e0891b0b09354ab8539755cb42098126798"]);
+    C_13(["e53e04ac/ipp5-backend-static-launcher\n2ed21bc54285b01bf0eeac34912e4bfa205eb488"]);
+    C_14(["e53e04ac/ipp5-configuration\ne58dada9bb6a6faf98017bd54a483cffaa94089d"]);
+    C_15(["e53e04ac/ipp5-frontend-builder\n99ee40cbc3a789f5129e3fdc76cdb56bace88540"]);
+    C_16(["e53e04ac/ipp5-frontend-launcher\nb05bceb5882fe4ca40838e6e6f158d1fc69764a4"]);
+    C_17(["e53e04ac/ipp5-static-builder\n5c24a2babfb06258d47425be5f8d7c06bc8e11fc"]);
+    C_18(["e53e04ac/ipp5-terraformer\ndc85374eb7baf39c9e3b9a346b38c143dfbf58ac"]);
+    C_20(["e53e04ac/file-entry\na15e61ae257f72be757cce2018bc2e2a6ff1962f"]);
+  end;
+  subgraph "npmjs";
+    C_19(["@types/node\n18.14.1"]);
   end;
   A ----> B_0;
   A ----> B_1;
@@ -53,32 +78,53 @@ graph RL;
   A ----> B_18;
   A ----> B_19;
   A ----> B_20;
-  click B_0 "https://github.com/e53e04ac/argv/tree/1575862ec3200db675cdd8aec5d9bc4da5eb1b11";
-  click B_1 "https://github.com/e53e04ac/base/tree/fc0fe75d4737062206ea1b99def2b1b2df6b99fa";
-  click B_2 "https://github.com/e53e04ac/date-time/tree/938d21223ea8acca6858650fa223280897c82b7a";
-  click B_3 "https://github.com/e53e04ac/event-emitter/tree/faf256d4d2350ffa0af1fed794236faa4f0740a1";
-  click B_4 "https://github.com/e53e04ac/file-entry-native/tree/9f6065504bf14be690aee1bb9beb982b21eef0d2";
-  click B_5 "https://github.com/e53e04ac/hold/tree/443c2e801bbe20409c761994a91fa88fb6044602";
-  click B_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/fcc2a6565b145b604ea3a536ffae347dfaa3deda";
-  click B_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/9c671f21b79ef33559e31426f1bd24162bf1b194";
-  click B_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/70ccd2dd388199253b31d5f4bc832391733c7329";
-  click B_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/51da9200e7f3d0f7382bdf4776ff6f217ac65008";
-  click B_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/24470c67bc87a35dc1da829f95fadb8e9cad085e";
-  click B_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/843f4d563e90cf88f1b0e2e86480804fcadb22ec";
-  click B_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/5617aa9a8ccd0bc64d71816756832db6a0ce571a";
-  click B_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/bc13483da0e6634eef6e74fc6cbae299bc54908f";
-  click B_14 "https://github.com/e53e04ac/ipp5-configuration/tree/30fcc2801d4369299b61a9e6e8a1ae69c2924333";
-  click B_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/d1cf0719fc6463392609edcb90d366d7a9cd44e5";
-  click B_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/e085ffca84fbf9ced11efe45ff884f6b0d37d985";
-  click B_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/3ec4953713d69861ce9d9ff36069fbe5826333a5";
-  click B_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/fb42b7efb85d6c1bb463344ce0af3ad5de87d6b6";
-  click B_19 "https://www.npmjs.com/package/@types/node/v/18.14.1";
-  click B_20 "https://github.com/e53e04ac/file-entry/tree/69045717124e824d6d83b98b6866fcafe8f295ef";
+  B_0 ----> C_0;
+  B_1 ----> C_1;
+  B_2 ----> C_2;
+  B_3 ----> C_3;
+  B_4 ----> C_4;
+  B_5 ----> C_5;
+  B_6 ----> C_6;
+  B_7 ----> C_7;
+  B_8 ----> C_8;
+  B_9 ----> C_9;
+  B_10 ----> C_10;
+  B_11 ----> C_11;
+  B_12 ----> C_12;
+  B_13 ----> C_13;
+  B_14 ----> C_14;
+  B_15 ----> C_15;
+  B_16 ----> C_16;
+  B_17 ----> C_17;
+  B_18 ----> C_18;
+  B_19 ----> C_19;
+  B_20 ----> C_20;
+  click C_0 "https://github.com/e53e04ac/argv/tree/a9d1a4cf03fe693513341746c39b354b3dc37f92";
+  click C_1 "https://github.com/e53e04ac/base/tree/5f8ab34b8cf48f6fea778a530617ccc8aefa1970";
+  click C_2 "https://github.com/e53e04ac/date-time/tree/744d828e44efdfe5d9dad5a0ea89a931db91053a";
+  click C_3 "https://github.com/e53e04ac/event-emitter/tree/98fd492f5a6e31cd646d4b79e70035061165871f";
+  click C_4 "https://github.com/e53e04ac/file-entry-native/tree/9e1eedb68cfb029588967f11818997ded7756655";
+  click C_5 "https://github.com/e53e04ac/hold/tree/6845a848f97733b8cd8a34bfc03c3bf040818aa8";
+  click C_6 "https://github.com/e53e04ac/ipp5-backend-api-builder/tree/8f48157732765c3aae37149f59514f53dd0ba248";
+  click C_7 "https://github.com/e53e04ac/ipp5-backend-api-launcher/tree/5bcf6ceb66023e9fbd93abe5029a2d763e5eb679";
+  click C_8 "https://github.com/e53e04ac/ipp5-backend-batch-builder/tree/456619783977fb5fa6a62041486aa64678f57fcb";
+  click C_9 "https://github.com/e53e04ac/ipp5-backend-batch-launcher/tree/d40cf1429ef1fb589a8ea98b4894d441033c309b";
+  click C_10 "https://github.com/e53e04ac/ipp5-backend-idp-builder/tree/13a2fd8a156e6d1a9fc4834c1d9b2b1e95d9917d";
+  click C_11 "https://github.com/e53e04ac/ipp5-backend-idp-launcher/tree/79a09c12140e8e6351f130307486639cd0021432";
+  click C_12 "https://github.com/e53e04ac/ipp5-backend-static-builder/tree/5aa47e0891b0b09354ab8539755cb42098126798";
+  click C_13 "https://github.com/e53e04ac/ipp5-backend-static-launcher/tree/2ed21bc54285b01bf0eeac34912e4bfa205eb488";
+  click C_14 "https://github.com/e53e04ac/ipp5-configuration/tree/e58dada9bb6a6faf98017bd54a483cffaa94089d";
+  click C_15 "https://github.com/e53e04ac/ipp5-frontend-builder/tree/99ee40cbc3a789f5129e3fdc76cdb56bace88540";
+  click C_16 "https://github.com/e53e04ac/ipp5-frontend-launcher/tree/b05bceb5882fe4ca40838e6e6f158d1fc69764a4";
+  click C_17 "https://github.com/e53e04ac/ipp5-static-builder/tree/5c24a2babfb06258d47425be5f8d7c06bc8e11fc";
+  click C_18 "https://github.com/e53e04ac/ipp5-terraformer/tree/dc85374eb7baf39c9e3b9a346b38c143dfbf58ac";
+  click C_19 "https://www.npmjs.com/package/@types/node/v/18.14.1";
+  click C_20 "https://github.com/e53e04ac/file-entry/tree/a15e61ae257f72be757cce2018bc2e2a6ff1962f";
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  M(["build-static.mjs"])
+  M["build-static.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -111,7 +157,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["generate-keys.mjs"])
+  M["generate-keys.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
     I_0_1(["webcrypto"]);
@@ -138,12 +184,12 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["index.mjs"])
+  M["index.mjs"]
 ~~~~~
 
 ~~~~~ mermaid
 graph RL;
-  M(["launch-backend-api.mjs"])
+  M["launch-backend-api.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -180,7 +226,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["launch-backend-batch.mjs"])
+  M["launch-backend-batch.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -217,7 +263,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["launch-backend-idp.mjs"])
+  M["launch-backend-idp.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -254,7 +300,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["launch-backend-static.mjs"])
+  M["launch-backend-static.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -291,7 +337,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["launch-frontend.mjs"])
+  M["launch-frontend.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -328,7 +374,7 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
-  M(["terraform.mjs"])
+  M["terraform.mjs"]
   subgraph "node:crypto";
     I_0_0(["randomUUID"]);
   end;
@@ -371,7 +417,7 @@ graph RL;
     E_6(["type LaunchFrontendApplication"]);
     E_7(["type TerraformApplication"]);
   end;
-  M(["index.d.ts"])
+  M["index.d.ts"]
   subgraph "argv";
     I_0_0(["Argv"]);
   end;
