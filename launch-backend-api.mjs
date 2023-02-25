@@ -52,7 +52,7 @@ const app = ({
         return Ipp5BackendApiBuilder({
             docker: app.configuration().docker,
             appDirectory: app.configuration().directories.backendApiDirectory,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-api-builder'),
             buildId: app.params.runId(),
             noCache: app.params.noCache(),
             containerAppGroup: app.configuration().backendApi.containerAppGroup,
@@ -67,7 +67,7 @@ const app = ({
         return Ipp5BackendApiLauncher({
             az: app.configuration().az,
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-api-launcher'),
             launchId: app.params.runId(),
             containerImageName: app.configuration().backendApi.containerImageName,
             containerTimezoneId: app.configuration().backendApi.containerTimezoneId,

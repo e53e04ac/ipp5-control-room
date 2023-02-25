@@ -47,7 +47,7 @@ const app = ({
     builder: hold(() => {
         return Ipp5StaticBuilder({
             srcDirectory: app.configuration().directories.staticDirectory,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-static-builder'),
             buildId: app.params.runId(),
             distDirectory: app.configuration().directories.staticDistDirectory,
         });

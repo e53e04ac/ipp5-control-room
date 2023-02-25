@@ -53,7 +53,7 @@ const app = ({
             docker: app.configuration().docker,
             appDirectory: app.configuration().directories.backendStaticDirectory,
             staticDistDirectory: app.configuration().directories.staticDistDirectory,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-static-builder'),
             buildId: app.params.runId(),
             noCache: app.params.noCache(),
             containerAppGroup: app.configuration().backendStatic.containerAppGroup,
@@ -69,7 +69,7 @@ const app = ({
         return Ipp5BackendStaticLauncher({
             az: app.configuration().az,
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-static-launcher'),
             launchId: app.params.runId(),
             containerImageName: app.configuration().backendStatic.containerImageName,
             containerTimezoneId: app.configuration().backendStatic.containerTimezoneId,

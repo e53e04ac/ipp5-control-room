@@ -52,7 +52,7 @@ const app = ({
         return Ipp5BackendIdpBuilder({
             docker: app.configuration().docker,
             appDirectory: app.configuration().directories.backendIdpDirectory,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-idp-builder'),
             buildId: app.params.runId(),
             noCache: app.params.noCache(),
             containerAppGroup: app.configuration().backendIdp.containerAppGroup,
@@ -67,7 +67,7 @@ const app = ({
         return Ipp5BackendIdpLauncher({
             az: app.configuration().az,
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-idp-launcher'),
             launchId: app.params.runId(),
             containerImageName: app.configuration().backendIdp.containerImageName,
             containerTimezoneId: app.configuration().backendIdp.containerTimezoneId,

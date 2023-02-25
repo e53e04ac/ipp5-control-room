@@ -52,7 +52,7 @@ const app = ({
         return Ipp5BackendBatchBuilder({
             docker: app.configuration().docker,
             appDirectory: app.configuration().directories.backendBatchDirectory,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-batch-builder'),
             buildId: app.params.runId(),
             noCache: app.params.noCache(),
             containerAppGroup: app.configuration().backendBatch.containerAppGroup,
@@ -67,7 +67,7 @@ const app = ({
         return Ipp5BackendBatchLauncher({
             az: app.configuration().az,
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-backend-batch-launcher'),
             launchId: app.params.runId(),
             containerImageName: app.configuration().backendBatch.containerImageName,
             containerTimezoneId: app.configuration().backendBatch.containerTimezoneId,

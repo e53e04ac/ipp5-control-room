@@ -51,7 +51,7 @@ const app = ({
     builder: hold(() => {
         return Ipp5FrontendBuilder({
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-frontend-builder'),
             buildId: app.params.runId(),
             noCache: app.params.noCache(),
             containerAppGroup: app.configuration().frontend.containerAppGroup,
@@ -73,7 +73,7 @@ const app = ({
         return Ipp5FrontendLauncher({
             az: app.configuration().az,
             docker: app.configuration().docker,
-            tmpDirectory: app.configuration().directories.tmpDirectory,
+            tmpDirectory: app.configuration().directories.tmpDirectory.resolve('ipp5-frontend-launcher'),
             launchId: app.params.runId(),
             containerImageName: app.configuration().frontend.containerImageName,
             containerTimezoneId: app.configuration().frontend.containerTimezoneId,
